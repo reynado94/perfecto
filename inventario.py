@@ -12,8 +12,8 @@ app.secret_key = os.getenv("SECRET_KEY", "supersecretkey")
 # Configuración del correo desde variables de entorno
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-EMAIL_USER = os.getenv("EMAIL_USER")
-EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
+EMAIL_USER = os.getenv("reynaldoguerrero94@gmail.com")
+EMAIL_PASSWORD = os.getenv("chichi#231123")
 
 def get_db_connection():
     """Establece una conexión a la base de datos y maneja errores."""
