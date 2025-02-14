@@ -1,5 +1,2 @@
-smtplib
 flask
-email.mime.text
 werkzeug.security
-random
