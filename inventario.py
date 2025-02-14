@@ -69,6 +69,10 @@ def send_email(to_email, subject, body):
         print(f"Error al enviar correo: {e}")
         return False
 
+@app.route('/')
+def home():
+    return redirect(url_for("login"))
+
 @app.route("/register", methods=["GET", "POST"])
 def register():
     """Muestra y procesa el registro de un nuevo usuario."""
