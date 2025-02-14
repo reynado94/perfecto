@@ -1,0 +1,7 @@
+os
+sqlite3
+smtplib
+flask
+email.mime.text
+werkzeug.security
+random
